@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-nav .navbar-brand {
+    color: #28B7B5;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.custom-nav .navbar-brand span {
+    color: #000;
+}
+
+.custom-nav .navbar-brand:hover {
+    color: #28B7B5 !important;
+}
+
+.custom-nav .navbar-brand:hover span {
+    color: #000;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .nav-link {
+    font-weight: 400;
+    margin-right: 20px;
+    color: #000;
+}
+
+.custom-nav #navbarNav .navbar-nav .nav-item .active {
+    color: #28B7B5 !important;
+}
+
+.jumbotron {
+    background: #fff;
+    text-align: center;
+}
+
+.jumbotron .row {
+    text-align: left;
+}
+
+.btn-custom {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    background: #28B7B5;
+    border: 1px solid #28B7B5;
+    padding: 10px 24px 10px 24px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.btn-custom_underline {
+    font-weight: 400;
+    font-size: 16px;
+    color: #28B7B5;
+    background: #fff;
+    border: 1px solid #28B7B5;
+    padding: 10px 24px 10px 24px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.btn-custom_underline:hover {
+    color: #fff;
+    background: #28B7B5;
+}
+
+.btn-custom:hover {
+    background: #25a3a1;
+    color: #fff;
+}
+
+.btn-transparent {
+    font-weight: 400;
+    font-size: 16px;
+    color: #707070;
+    background: transparent;
+    padding: 10px 24px 10px 24px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.btn-transparent:hover {
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    background: transparent;
+    padding: 10px 24px 10px 24px;
+}
+
+.container .section-project h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.container .row .col-xl-4 .card {
+    border: none;
+}
+
+.container .row .col-xl-4 .card .card-body .row .col-lg-12 h2 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.container .row .col-xl-4 .card .card-body .row .col-lg-12 p {
+    font-weight: 300;
+    font-size: 16px;
+    color: #757384;
+}
+
+.container .row .col-xl-4 .my-shadow {
+    -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+@media screen and (max-width: 576px) {
+    .container .custom-count .bg-green {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+.container .custom-count .bg-green {
+    border: 1.6px solid #28B7B5;
+    width: 100%;
+    padding: 26px;
+    border-radius: 4px;
+}
+
+.container .custom-count .bg-green h4 {
+    font-weight: 700;
+    color: #28B7B5;
+}
+
+.container .custom-count .bg-green .btn-more {
+    border: 1px solid #28B7B5;
+    padding: 10px 24px 10px 24px;
+    color: #28B7B5;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.container .custom-count .bg-green .btn-more:hover {
+    color: #fff;
+    background: #28B7B5;
+}
+
+.container .custom-count .bg-green .btn-custom {
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    background: #28B7B5;
+    border: 1px solid #28B7B5;
+    padding: 10px 24px 10px 24px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.container .custom-count .bg-green .btn-custom:hover {
+    background: #25a3a1;
+}
+
+.container .section-why h1 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.container .section-why .row .col-lg-4 .header {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+.container .section-why .row .col-lg-4 p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.container .section-skill {
+    text-align: center;
+}
+
+.container .section-skill p {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.bd-callout {
+    padding-left: 1rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    border-left: 1px solid #28B7B5;
+    border-left-width: 0.35rem;
+    border-radius: 0.25rem;
+}
+
+.skill {
+    margin-top: 10px;
+}
+
+.icon {
+    width: 35px;
+}
+
+.icon-mini {
+    width: 40px;
+}
+
+.link {
+    color: #28B7B5;
+    text-decoration: underline;
+}
+
+.link:hover {
+    color: #28B7B5;
+}
+
+.footer .row .col-lg-3 {
+    margin-top: 30px;
+}
+
+.footer .row .col-lg-3 .brand {
+    color: #28B7B5;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer .row .col-lg-3 .brand span {
+    color: #000;
+}
+
+.footer .row .col-lg-3 .parent {
+    font-weight: 400;
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer .row .col-lg-3 ul {
+    padding: 0px;
+    list-style: none;
+}
+
+.footer .row .col-lg-3 ul li {
+    margin-bottom: 8px;
+}
+
+.footer .row .col-lg-3 ul li a {
+    font-weight: 300;
+    font-size: 16px;
+    color: #a8a8a8;
+}
+
+.footer .text-center {
+    margin-bottom: 40px;
+}
+
+.footer .text-center p {
+    font-weight: 300;
+    font-size: 16px;
+    color: #a8a8a8;
+}
+
+/*# sourceMappingURL=app.css.map */
